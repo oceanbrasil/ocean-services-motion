@@ -6,8 +6,8 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         //applicationId "samsung.com.motion"
-        minSdkVersion 17
-        targetSdkVersion 25
+        minSdkVersion 9
+        targetSdkVersion 18
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,7 +26,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile files('libs/motion-v2.2.1.jar')
     compile files('libs/sdk-v1.0.0.jar')
