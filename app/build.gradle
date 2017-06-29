@@ -7,7 +7,7 @@ android {
     defaultConfig {
         //applicationId "samsung.com.motion"
         minSdkVersion 9
-        targetSdkVersion 18
+        // targetSdkVersion 18
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
