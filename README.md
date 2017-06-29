@@ -18,6 +18,16 @@ Motion SDK recognizes the action when the user first watches the device and then
 
 ![Motion](http://developer.samsung.com/sd2_images/galaxy/content/SMS_Motion_02.jpg)
 
+**Restrictions**
+
+Motion SDK has the following restrictions:
+
+- Devices with Android 4.3 Jelly Bean (API level 18) or higher support Motion.
+- Devices with Android 4.4KitKat (API level 19) or higher support activity recognition.
+- Devices with a proximity, acceleration, and a gyro sensor support call motion detection.
+- Devices with an acceleration and a pressure sensor support pedometer data usage. The device cannot recognize the number of up/down steps and the status of up/down steps without the pressure sensor.
+
+
 ## Download
 
 Add into gradle project level
